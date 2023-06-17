@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 ENV TZ="America/New_York"
 RUN apt-get update && apt upgrade -y
 RUN apt-get -y install lp-solve
