@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 ENV TZ="America/New_York"
 RUN apt-get update && apt upgrade -y
 RUN apt-get -y install lp-solve
